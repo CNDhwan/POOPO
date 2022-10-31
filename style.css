@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins&display=swap');
+
+body {
+    background-color: rgb(50, 70, 200);
+    color: white;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    height: 33vh;
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(50, 70, 200);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.container {
+    margin: 5vh 20vw;
+    font-size: 20px;
+}
+
+img {
+    width: 30vw;
+    height: auto;
+    border-radius: 2vw;
+    transition: 0.35s ease border-radius, 0.35s ease opacity;
+    opacity: 0.5;
+}
+
+img:hover{
+    border-radius: 0.5vw;
+    opacity: 1;
+}
